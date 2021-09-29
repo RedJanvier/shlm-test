@@ -38,7 +38,5 @@ if (isCount && isFilter < 0) {
     .filter((x) => x);
   console.log(JSON.stringify(toDisplay));
 } else {
-  console.log('isCount: ', isCount);
-  console.log('isFilter: ', isFilter);
   console.log('Unkown command provided!');
 }
